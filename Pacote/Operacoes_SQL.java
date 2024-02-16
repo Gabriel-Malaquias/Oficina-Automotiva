@@ -4,7 +4,7 @@ public class Operacoes_SQL {
     /*Esta classe tem a finalidade de lidar com todas as operações SQL da aplicação para interagir e
      * manipular o banco de dados. Os métodos criados nesta classe em sua maioria são métodos que realizarão
      * a inserção de informações na base de dados. Somente um método realizá uma consulta SQL e mais detalhes
-     * serão explicados na linha 109
+     * serão explicados na linha 110
      */
 
     private Conexao_DB conexao;
