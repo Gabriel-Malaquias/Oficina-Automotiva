@@ -7,9 +7,9 @@ public class Conexao_DB {
      * no objeto Connection
      */
 
-    public static String url = "jdbc:mysql://localhost:3306/oficina";
-    public static String user = "";
-    public static String pws = "";
+    public static String url = "jdbc:mysql://localhost:3306/oficina"; /*Caminho padrão para se conectar com o banco de dados*/
+    public static String user = ""; /*Informe seu usuário do banco de dados criado*/
+    public static String pws = ""; /*Se houver senha no seu banco dados, informe nesta variável se não, deixa-a em branco*/ 
 
     /*Objeto responsável por estabelecer a conexão com o banco de dados por meio do JDBC */
     private Connection conexao = null;
