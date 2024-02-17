@@ -16,34 +16,72 @@ orçamento. A finalidade deste repositório e mostrar habilidades com a linguage
 os comando SQL que criarão todas as tabelas necessárias para que o código funcione:</p>
 <div>
   <nav>
+    <li>Criação do banco de dados</li>
+    <p>
+      <pre>
+      create database Oficina;
+      </pre>
+    </p>
     <li>Criação da tabela que armazenará os dados do cliente
-    <p>create table cliente(<br> id_cliente int not null auto_increment,<br>nome varchar(50),<br>telefone varchar(15),<br>cpf varchar(15),<br>primary key (id_cliente)<br>);</p>
+    <p>
+    <pre>
+    create table cliente(
+    id_cliente int not null auto_increment,
+    nome varchar(50),
+    telefone varchar(15),
+    cpf varchar(15),<br>
+    primary key (id_cliente)
+    );</pre></p>
     </li>
     <li>Criação da tabela que armazenará os dados do veículo
     <pre>
-    <p>create table veiculo(<br>id_veiculo int not null auto_increment,<br>modelo varchar(20),<br>fabricante varchar(20),<br>cor varchar(20),<br>placa varchar(8),<br>dono int,
-    <br>primary key (id_veiculo),<br>
-    foreign key(dono) references cliente(id_cliente<br>);<br></p></pre>
+    <p>
+    create table veiculo(
+    id_veiculo int not null auto_increment,
+    modelo varchar(20),
+    fabricante varchar(20),
+    cor varchar(20),
+    placa varchar(8),
+    dono int,<br>
+    primary key (id_veiculo),
+    foreign key(dono) references cliente(id_cliente)
+    );</p>
+    </pre>
     </li>
     <li>Criação da tabela conterá as peças em estoque na oficina
-    <p>Ressaltando que pode ser inseridos muito mais dados nesta tabela<br>
-    <br>
-    create table estoque_pecas_1(<br>id_peca int not null auto_increment,<br>nome_peca varchar(50),<br>preco float,<br>primary key (id_peca)<br>);<br></p>
+    <p>
+    <pre>
+    create table estoque_pecas_1(
+    id_peca int not null auto_increment,
+    nome_peca varchar(50),
+    preco float,<br>
+    primary key (id_peca)
+    );
+    </pre>
+    </p>
     </li>
     <li>Por fim, a criação da tabela que armazenará a ficha do veículo
-    <p>create table ficha(<br>id_ficha int not null auto_increment,<br>veiculo_defeito int,<br>peca_necessaria int,<br>descricao_defeito text,<br>primary key (id_ficha)<br>);<br>
-    <br>
-    alter table ficha<br>add foreign key (veiculo_defeito) references veiculo(id_veiculo);<br>
-    <br>
-    alter table ficha<br>add foreign key(peca_necessaria) references estoque_pecas(id_pecas);<br></p>
-    </li>
+    <p>
+    <pre>
+    create table ficha(
+    id_ficha int not null auto_increment,
+    veiculo_defeito int,
+    peca_necessaria int,
+    descricao_defeito text,<br>
+    primary key (id_ficha)
+    );
+    </p>
+    alter table ficha add foreign key (veiculo_defeito) references veiculo(id_veiculo);<br>
+    alter table ficha add foreign key(peca_necessaria) references estoque_pecas(id_pecas);
+    </pre>  
+  </li>
   </nav>
 </div>
 <p>4) Em vista de que a aplicação interage com o banco de dados por meio do JBDC, é necessário configurar este driver na IDE a ser utilizada para executar o código. Isto pode ser feito de formas diferentes a depender
 do ambiente que for ser utilizado para rodar o projeto. No mais, abaixo está o link de download do driver JDBC:</p>
 <p>https://dev.mysql.com/downloads/connector/j/</p>
 <h2>Uso</h2>
-<p>Ao executar o código pela primeira vez não terá ainda nenhum dado armazenado no banco de dados, por isso é importante lembrar que ao informar o numero de id do dono no cadastramento do veículo o valor será 1. O mesmo
+<p>Ao executar o código pela primeira vez não haverá ainda nenhum dado armazenado no banco de dados, por isso é importante lembrar que ao informar o numero de id do dono no cadastramento do veículo o valor será 1. O mesmo
 vale para o id do veículo informado no momento de cadastrar a ficha, o valor será 1. Para cada execução que for feita para rodar o código, o valor do id do dono e do veículo informado vai se incrementando. Exemplo:
 <div>
   <nav>
