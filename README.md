@@ -51,12 +51,21 @@ os comando SQL que criarão todas as tabelas necessárias para que o código fun
     <li>Criação da tabela conterá as peças em estoque na oficina
     <p>
     <pre>
-    create table estoque_pecas_1(
+    create table estoque_pecas(
     id_peca int not null auto_increment,
     nome_peca varchar(50),
     preco float,<br>
     primary key (id_peca)
-    );
+    );<br>
+    insert into estoque_pecas(id_peca, nome_peca, preco) values 
+    (default, 'Kit de Amortecedor', 550),
+    (default, 'Kit Coaxins de Motor', 420),
+    (default, 'Vela de Ignição', 15),
+    (default, 'Correia Dentada', 350),
+    (default, 'Bateria Moura 70ah', 360),
+    (default, 'Correia do Alternador', 90),
+    (default, 'Lanterna de Farol', 40),
+    (default, 'Kit Óleo de Motor', 130);
     </pre>
     </p>
     </li>
@@ -69,8 +78,7 @@ os comando SQL que criarão todas as tabelas necessárias para que o código fun
     peca_necessaria int,
     descricao_defeito text,<br>
     primary key (id_ficha)
-    );
-    </p>
+    );</p>
     alter table ficha add foreign key (veiculo_defeito) references veiculo(id_veiculo);<br>
     alter table ficha add foreign key(peca_necessaria) references estoque_pecas(id_pecas);
     </pre>  
