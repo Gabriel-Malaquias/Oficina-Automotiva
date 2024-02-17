@@ -1,15 +1,15 @@
 import java.sql.*;
 
 public class Conexao_DB {
-    /*Esta classe será a responsável por criar uma conexão com o bando de dados. O driver utilizado
-     * para esta conexão é o JDBC. As variáveis abaixo armazenarão os dados como usuário do banco de dados,
-     * senha e o caminho da base de dados para realizar a conexão e por fim, serão passadas como parâmetros
+    /* Esta classe será a responsável por criar uma conexão com o bando de dados. O driver utilizado
+     * para esta conexão é o JDBC. As variáveis abaixo armazenarão os dados como o caminho da base de dados,
+     * usuário do banco de dados e a senha respectivamente. Por fim, serão passadas como parâmetros
      * no objeto Connection
      */
 
     public static String url = "jdbc:mysql://localhost:3306/oficina";
-    public static String user = "root";
-    public static String pws = "1605";
+    public static String user = "";
+    public static String pws = "";
 
     /*Objeto responsável por estabelecer a conexão com o banco de dados por meio do JDBC */
     private Connection conexao = null;
