@@ -3,7 +3,7 @@
 <p>A aplicação tem o objetivo de simular a rotina de serviços prestados por uma oficina automotiva como cadastramento de cliente, veiculo, uma ficha descrevendo o problema a ser resolvido e a exibição de um simples
 orçamento. A finalidade deste repositório e mostrar habilidades com a linguagem java interagindo com um banco de dados.</p>
 <h2>Demonstração</h2>
-<p>O sistema não possui uma interface implementada e portanto, o seu funcionamento ocorre pelo terminal como nas imagens abaixo:</p>
+<p>O sistema não possui uma interface gráfica implementada e portanto, o seu funcionamento ocorre pelo terminal como nas imagens abaixo:</p>
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Cliente.png"> 
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Veiculo.png">
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Ficha.png">
@@ -86,7 +86,7 @@ os comando SQL que criarão todas as tabelas necessárias para que o código fun
   </nav>
 </div>
 <p>4) Em vista de que a aplicação interage com o banco de dados por meio do JBDC, é necessário configurar este driver na IDE a ser utilizada para executar o código. Isto pode ser feito de formas diferentes a depender
-do ambiente que for ser utilizado para rodar o projeto. No mais, abaixo está o link de download do driver JDBC:</p>
+do ambiente que for a ser utilizado para rodar o projeto. No mais, abaixo está o link de download do driver JDBC:</p>
 <p>https://dev.mysql.com/downloads/connector/j/</p>
 <h2>Uso</h2>
 <p>Ao executar o código pela primeira vez não haverá ainda nenhum dado armazenado no banco de dados, por isso é importante lembrar que ao informar o numero de id do dono no cadastramento do veículo o valor será 1. O mesmo
