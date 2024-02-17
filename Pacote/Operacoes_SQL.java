@@ -93,7 +93,7 @@ public class Operacoes_SQL {
     /*Relizará a inserção da ficha do veículo no banco de dados */
     public void Inserir_ficha(){
         try {
-            String sql = "insert into ficha (carro_defeito, peca_necessaria, descricao_defeito) values (?,?,?)";
+            String sql = "insert into ficha (veiculo_defeito, peca_necessaria, descricao_defeito) values (?,?,?)";
             Connection coon = conexao.getConnection();
             PreparedStatement stm = coon.prepareStatement(sql);
 
