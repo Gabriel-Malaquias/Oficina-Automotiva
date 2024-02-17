@@ -121,3 +121,20 @@ vale para o id do veículo informado no momento de cadastrar a ficha, o valor se
 </div> 
 Esta lógica segue para cada execução que for feita para rodar a aplicação
 </p>
+<h2>Como Contribuir ?</h2>
+<p>Se você estiver interessado em contribuir para este projeto, por favor, siga estas etapas:
+<div>
+  <nav>  
+    <li>Fork este repositório</li>
+    <li>Crie uma nova branch com um nome descritivo da sua contribuição</li>
+    <li>Faça suas alterações e commit nelas</li>
+    <li>Envie um Pull Request (PR) para a branch principal deste repositório</li>
+  </nav>
+</div>
+</p>
+<p>Se houver alguma dúvida ou precisar de ajuda, não hesite em perguntar aqui no repositório ou entre em contato através do e-mail: gmalaquias166@gmail.com
+
+Obrigado por visitar este projeto!
+
+Autor: Gabriel Malaquias 
+</p>
