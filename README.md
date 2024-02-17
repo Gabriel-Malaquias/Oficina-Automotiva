@@ -10,7 +10,7 @@ orçamento. A finalidade deste repositório e mostrar habilidades com a linguage
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Or%C3%A7amento.png">
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Or%C3%A7amento_part2.png">
 <h2>Instalação</h2>
-<p>1) Baixar o repositório localmente em sua máquina. Para isso, utlize o comando: git clone url_repositorio.
+<p>1) Baixar o repositório localmente em sua máquina. Para isso, utlize o comando: git clone https://github.com/Gabriel-Malaquias/Oficina-Automotiva
 <p>2) Tenha uma IDE apropriada para programar em java e executar o código. Exemplos: Eclipse, JetBrains ou VSCode</p>
 <p>3) A aplicação funciona interagindo com um banco de dados. Neste caso, é importante que seja criado uma base de dados em sua máquina e de preferência usando o MYSQL. Para facilitar, abaixo estão 
 os comando SQL que criarão todas as tabelas necessárias para que o código funcione:</p>
