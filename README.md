@@ -87,6 +87,7 @@ os comando SQL que criarão todas as tabelas necessárias para que o código fun
 <p>4) Em vista de que a aplicação interage com o banco de dados por meio do JBDC, é necessário configurar este driver na IDE a ser utilizada para executar o código. Isto pode ser feito de formas diferentes a depender
 do ambiente que for a ser utilizado para rodar o projeto. No mais, abaixo está o link de download do driver JDBC:</p>
 <p>https://dev.mysql.com/downloads/connector/j/</p>
+<p>OBS: Importante ressaltar que será necessário informar na classe Conexao_DB o nome de usuário do seu banco de dados e sua senha se houver. </p>
 <h2>Uso</h2>
 <p>Ao executar o código pela primeira vez não haverá ainda nenhum dado armazenado no banco de dados, por isso é importante lembrar que ao informar o numero de id do dono no cadastramento do veículo o valor será 1. O mesmo
 vale para o id do veículo informado no momento de cadastrar a ficha, o valor será 1. Para cada execução que for feita para rodar o código, o valor do id do dono e do veículo informado vai se incrementando. Exemplo:
