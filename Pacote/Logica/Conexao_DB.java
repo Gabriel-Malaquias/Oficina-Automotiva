@@ -5,8 +5,8 @@ import java.sql.*;
 
 public class Conexao_DB {
     public static String url = "jdbc:mysql://localhost:3306/oficina";
-    public static String user = ""; 
-    public static String pws = ""; 
+    public static String user = ""; // Armazena o nome de usuário do banco de dados
+    public static String pws = "";  // Armazena senha do banco de dados se houver
 
     private Connection conexao;
 
