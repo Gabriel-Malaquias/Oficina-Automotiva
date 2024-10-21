@@ -4,11 +4,10 @@
 orçamento. A finalidade deste repositório e mostrar habilidades com a linguagem java interagindo com um banco de dados SQL. A aplicação interage com o usuário por meio de interfaces gráficas Swing do java, isso permite trazer maior intuitividade e facilidade ao usar o sistema. Perceba que a aplicação está dividida em 2 pacotes principais onde o primeiro pacote armazena as classes responsáveis por criar as interfaces e um outro pacote que armazena as classes responsáveis por executar a lógica por trás destas telas.</p>
 <h2>Demonstração</h2>
 <p></p>
-<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Cliente.png"> 
-<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Veiculo.png">
-<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Ficha.png">
-<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Or%C3%A7amento.png">
-<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Or%C3%A7amento_part2.png">
+<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Customer.png">
+<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Vehicle.png">
+<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Record.png">
+<img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Budget.png">
 <h2>Instalação</h2>
 <p>1) Baixar o repositório localmente em sua máquina. Para isso, utlize o comando: git clone https://github.com/Gabriel-Malaquias/Oficina-Automotiva
 <p>2) Tenha uma IDE apropriada para programar em java e executar o código. Exemplos: Eclipse, JetBrains ou VSCode</p>
