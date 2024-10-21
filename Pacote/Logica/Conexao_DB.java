@@ -5,8 +5,8 @@ import java.sql.*;
 
 public class Conexao_DB {
     public static String url = "jdbc:mysql://localhost:3306/oficina";
-    public static String user = "root"; 
-    public static String pws = "1605"; 
+    public static String user = ""; 
+    public static String pws = ""; 
 
     private Connection conexao;
 
