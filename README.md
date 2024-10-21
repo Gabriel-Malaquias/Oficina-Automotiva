@@ -1,9 +1,9 @@
 <h1>Sistema de Oficina Automotiva</h1>
 <h2>Descrição</h2>
 <p>A aplicação tem o objetivo de simular a rotina de serviços prestados por uma oficina automotiva como cadastramento de cliente, veiculo, uma ficha descrevendo o problema a ser resolvido e a exibição de um simples
-orçamento. A finalidade deste repositório e mostrar habilidades com a linguagem java interagindo com um banco de dados.</p>
-<h2>Demonstração</h2>
-<p>O sistema não possui uma interface gráfica implementada e portanto, o seu funcionamento ocorre pelo terminal como nas imagens abaixo:</p>
+orçamento. A finalidade deste repositório e mostrar habilidades com a linguagem java interagindo com um banco de dados SQL.</p>
+<h2>Descrição</h2>
+<p>A aplicação interage com o usuário por meio de interfaces gráficas Swing do java, isso permite trazer maior intuitividade e facilidade ao usar o sistema. Perceba que a aplicação está dividida em 2 pacotes principais onde o primeiro pacote armazena as classes responsáveis por criar as interfaces e um outro pacote que armazena as classes responsáveis por executar a lógica por trás destas interfaces</p>
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Cliente.png"> 
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Veiculo.png">
 <img src="https://github.com/Gabriel-Malaquias/Oficina-Automotiva/blob/main/Pacote/Imagens_Demonstra%C3%A7%C3%A3o/Ficha.png">
